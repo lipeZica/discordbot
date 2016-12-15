@@ -3,7 +3,7 @@
  */
 var config = require('./config/main.json');
 var winston = require('winston');
-var prefix = "!w.";
+var prefix = "!";
 var shard_id = process.env.SHARD_ID;
 var shard_count = process.env.SHARD_COUNT;
 var blocked = require('blocked');
